@@ -1,11 +1,14 @@
 {
   "name": "日経記事モバイル確認くん",
   "description" : "記事レイアウトを確認する拡張。PCの記事ページでのみ有効。Open Nikkei mobile article layout with popup. Only available on desktop article.",
-  "version": "1.2",
+  "version": "1.3",
   "manifest_version": 2,
   "permissions": [
     "tabs"
   ],
+  "icons": {
+    "96": "nikkei.png"
+  },
   "background": {
     "scripts": ["background.js"],
     "persistent": false
