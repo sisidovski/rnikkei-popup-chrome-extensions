@@ -15,7 +15,11 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.nikkei.com/article/*"],
+      "matches": [
+        "https://www.nikkei.com/article/*",
+        "https://www.nikkei.com/paper/article/*",
+        "https://www.nikkei.com/nkd/company/article/*"
+      ],
       "js": ["content_script.js"]
     }
   ]
