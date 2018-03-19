@@ -1,0 +1,19 @@
+{
+  "name": "r.nikkei.com popup extensions",
+  "description" : "Open Nikkei article on r.nikkei.com domain with popup",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "nikkei.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.nikkei.com/article/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
