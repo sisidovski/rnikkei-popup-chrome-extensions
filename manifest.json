@@ -1,7 +1,7 @@
 {
   "name": "日経記事モバイル確認くん",
   "description" : "r.nikkei.comのURLでモバイル用の記事レイアウトを確認する拡張機能。www.nikkei.comの記事ページでのみ有効。/ Open Nikkei article on r.nikkei.com domain with popup, only available on article page of www.nikkei.com",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"],
